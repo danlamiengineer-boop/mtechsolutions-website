@@ -363,7 +363,7 @@ body {
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 margin: 0 auto 20px auto;
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                /* Professional service page title */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 .page-title {
     text-align: center;
     border: none;
@@ -381,3 +381,70 @@ body {
     background-color: tomato;
     margin: 12px auto 0 auto;
 }   
+
+
+/* Mobile responsive design */
+@media (max-width: 768px) {
+
+    body {
+        padding: 10px;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    .brand img {
+        width: 140px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px 5px;
+        font-size: 16px;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero-text h1 {
+        font-size: 48px;
+        line-height: 1.1;
+    }
+
+    .hero-text p {
+        font-size: 18px;
+    }
+
+    .hero img {
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .service-card {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .service-card img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+}
